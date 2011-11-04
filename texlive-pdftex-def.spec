@@ -1,3 +1,9 @@
+# revision 22653
+# category Package
+# catalog-ctan /macros/latex/contrib/pdftex-def/pdftex.def
+# catalog-date 2011-05-28 11:53:45 +0200
+# catalog-license lppl1.3
+# catalog-version 0.06d
 Name:		texlive-pdftex-def
 Version:	0.06d
 Release:	1
@@ -34,6 +40,7 @@ colour and graphics support when running pdf(La)TeX.
 #-----------------------------------------------------------------------
 %files
 %{_texmfdistdir}/tex/latex/pdftex-def/pdftex.def
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -44,3 +51,5 @@ colour and graphics support when running pdf(La)TeX.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
