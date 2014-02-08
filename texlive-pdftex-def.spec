@@ -6,7 +6,7 @@
 # catalog-version 0.06d
 Name:		texlive-pdftex-def
 Version:	0.06d
-Release:	2
+Release:	3
 Summary:	Colour and Graphics support for PDFTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pdftex-def/pdftex.def
