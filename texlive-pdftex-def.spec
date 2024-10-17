@@ -9,7 +9,7 @@ Version:	0.06d
 Release:	12
 Summary:	Colour and Graphics support for PDFTeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pdftex-def/pdftex.def
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/pdftex-def/pdftex.def
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pdftex-def.tar.xz
 BuildArch:	noarch
